@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto';
+  background-color: rgb(91, 91, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  border-radius: 10px;
+  width: 400px;
+  min-height: 300px;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.contBlock{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.contBlockTodo {
+  color: white;
+  font-size: 40px;
+  
+}
+
+.contBlockEnter {
+  margin-bottom: 30px;
+  border: 1px solid rgb(91, 91, 255);
+  width: 80%;
+}
+
+.contBlockEnterInp {
+  height: 40px;
+  border: 0;
+  outline: 0;
+  width: 70%;
+}
+
+.contBlockEnterBut {
+  background-color: rgb(91, 91, 255);
+  border: 0;
+  width: 30%;
+  height: 40px;
+  color: white;
+  
+}
+
+.contBlockDoing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.textInput, .numberTask {
+  margin-left: 10px;
+}
+
+.basket {
+  background: 0;
+  border: 0;
+  cursor: pointer;
+  
+}
+
+.iconka {
+  position: absolute;
+  bottom: 10px;
+  width: 20px;
+  right: 10px;
+}

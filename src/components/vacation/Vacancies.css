@@ -1,0 +1,118 @@
+
+.point {
+    margin: 0px 10px 0px 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocksLine { 
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 1000px;
+    height: 130px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #679f9d 0.5%, white 1px);
+    border-radius: 5px;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 1000px;
+    height: 130px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.blocksTools {
+    margin-left: 5px;
+    background-color: white;
+    display: flex;
+}
+
+.blocksToolsPictures {
+    padding-left: 30px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.blocksToolsDescription {
+    background-color: white;
+    margin-left: 10px;
+    height: 80px;
+    width: 300px;
+}
+
+.blocksToolsDescriptionHead {
+    display: flex;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.blocksToolsDescriptionHeadСompany {
+    color: #679f9d;
+}
+
+.blocksToolsDescriptionHeadNew {
+    color: white;
+    margin-left: 10px;
+    background-color: #679f9d;
+    padding: 3px 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Roboto'
+}
+
+.blocksToolsDescriptionHeadFeatured {
+    color: white;
+    margin-left: 10px;
+    background-color: #000000;
+    padding: 3px 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Roboto'
+}
+
+.blocksToolsDescriptionPosition {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: black;
+    font-family: 'Roboto'
+}
+
+.blocksToolsDescriptionFooter {
+    display: flex;
+    background-color: white;
+    margin-top: 7px;
+}
+
+.blocksToolsDescriptionFooterPostedAt {
+    color: #cdcfcf;
+    margin-left: 10px;
+}
+
+.blocksToolsLanguage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 200px;
+    width: 350px;
+    background-color: white;
+}
+
+.blocksToolsLanguageItem {
+    margin-left: 20px;
+    padding: 5px;
+    font-family: 'Roboto';
+    color: #253a6b;
+}

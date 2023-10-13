@@ -1,0 +1,89 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'roboto';
+}
+
+.containBlocks {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 1000px;
+    height: 130px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.containBlocksLogo{
+    padding-left: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+.containBlocksInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    height: 80px;
+    width: 300px;
+}
+
+.containBlocksInfoHead {
+    display: flex;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+}
+
+.containBlocksInfoHeadCompany {
+    margin: 0;
+    color: #679f9d;
+}
+
+.containBlocksInfoHeadNew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    margin-left: 10px;
+    background-color: #679f9d;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 2px 5px ;
+}
+
+.containBlocksInfoHeadFeatured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    background-color: #000000;
+    border-radius: 25px;
+    padding: 2px 5px ;
+}
+
+.containBlocksInfoPos {
+    font-weight: 500;
+}
+
+.containBlocksInfoFooter {
+    color: gray;
+}
+
+.containBlocksLast {
+    display: flex;
+    font-family: 'Roboto';
+    color: #253a6b;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.containBlocksLastEvery {
+    margin: 20px;
+    padding: 3px 2px; 
+    background-color:#bfd4d2;
+}
