@@ -1,0 +1,18 @@
+body {
+  font-family: 'roboto';
+}
+
+td {
+  background-color: #cde9fb;
+}
+
+.firstLine {
+  font-weight: 600;
+  background-color: #75c9f8;
+  width: 33vh;
+}
+
+.cellContent {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #43168b;
+    font-family: 'roboto';
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+input{
+    background: none;
+    outline: 0;
+    border: 1px solid white;
+    height: 20px;
+    color: white;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+button {
+    margin-top: 40px;
+    background-color: orange;
+    padding: 5px 30px;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+}
+
+.containerItems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

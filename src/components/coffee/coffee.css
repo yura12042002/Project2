@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "roboto";
+}
+
+button {
+  cursor: pointer;
+  color: blue;
+}
+hr {
+  border: 2px solid red;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 50vh;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.blockSyrop {
+  width: 120px;
+  border: 2px solid blue;
+  background: 0;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.blockAmount {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.blockAmountPlus {
+  background: 0;
+  border: 1px solid blue;
+  border-radius: 20%;
+  color: green;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.blockAmountMinus {
+  background: 0;
+  border: 1px solid blue;
+  border-radius: 20%;
+  color: red;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+}
+
+.basketBlock {
+  display: inline-block;
+  width: 800px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.basketBlockIncludce {
+  min-height: 160px;
+}
+
+.basketBlockSum {
+  text-align: right;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.activeButton {
+  width: 120px;
+  border: 2px solid red;
+  background: red;
+  color: white;
+  box-shadow: 1px 1px 5px red;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.nothing {
+  width: 30px;
+  height: 30px;
+}
+
+.basketBlockIncludceItem {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  color: blue;
+  font-size: 20px;
+}
+
+.basketBlockIncludceItemText {
+  margin: 20px;
+}
+
+.basketBlockIncludceItemCount {
+ margin-right: 0;
+ margin-left: auto;
+}
+
+.basketBlockIncludceItemPrice {
+  margin-left: auto;
+  margin-right: 30px;
+}

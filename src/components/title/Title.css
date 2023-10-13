@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.fontSize{
+    margin-left: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.textButtun {
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.selectColor {
+    margin: 10px;
+}
+
+.textWithChange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}

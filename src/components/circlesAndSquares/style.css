@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+.mainBlock {
+  display: flex;
+  width: 1200px;
+  height: 100%;
+}
+
+.mainBlockParameters {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 400px;
+}
+
+.mainBlockFigure {
+  width: 80%;
+}
+
+.mainBlockFigureSelect {
+  display: flex;
+  align-items: center;
+  margin-left: 70%;
+  margin-right: 0;
+  height: 40px;
+}
+
+.mainBlockParametersColor {
+  display: flex;
+}
+
+.mainBlockParametersShade {
+  margin-top: 30px;
+}
+
+.mainBlockFigureSelectBlock {
+  display: flex;
+}
+
+.mainBlockFigureShow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainBlockFigureShowForm {
+  width: 20px;
+  height: 30px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 190px;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 190px;
+  margin: 20px;
+}
+

@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  font-family: 'roboto';
+  color: white
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#e66465, #29d5a2);
+  border-radius: 20px;
+  width: 500px;
+  min-height: 500px;
+}
+
+.blockTitle {
+  font-size: 40px;
+}
+
+.blockItems {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.blockItemTask {
+  margin-right: 30px;
+}
+
+.blockItem {
+  width: 300px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.blockItemButton {
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 20px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}

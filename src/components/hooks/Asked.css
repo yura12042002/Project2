@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    border: solid 2px #c4c3c3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blockHeader{ 
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'roboto';
+    margin-top: 40px;
+}
+.blockSlider {
+    width: 800px;
+    height: auto
+}
+
+.blockSliderQuestions {
+    display: flex;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blockSliderQuestionsButton { 
+    margin-left: auto;
+    margin-right: 0;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.blockSliderQuestionsButtonDown {
+    width: 20px;
+    height: 20px;
+}
+
+.blockSliderQuestionsAnswere{
+    font-size: 20px;
+    color: gray;
+}

@@ -1,0 +1,40 @@
+body { 
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    margin: 10px
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+}
+
+.blockInputs {
+    display: flex;
+    align-items: center;
+}

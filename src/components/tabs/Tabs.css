@@ -1,0 +1,44 @@
+button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #8e8e8e;
+    background-color: white;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.containNaming {
+    font-size: 130px;
+    margin: 0;
+}
+
+.containBlock {
+    width: 600px;
+    height: 300px;
+    border: 2px solid #8e8e8e;
+    border-top: 0;
+}
+
+.containBlockHr {
+    width: 80px;
+    margin-left: 0;
+}
+
+.active { 
+    border: 0;
+    border-top: 5px solid blue;
+}
+
+.containBlockText {
+    margin-left: 20px;
+}
+
+.containBlockTextTitle {
+    font-weight: 600;
+    font-size: 20px;
+}

@@ -1,0 +1,104 @@
+body {
+  font-family: 'roboto';
+}
+
+select {
+  width: 100px;
+} 
+
+input {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.addingCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  height: 300px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  height: 300px;
+}
+
+.addingSpending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  height: 300px;
+}
+
+.addingCategoryTytle {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.addingCategoryInput {
+  display: flex;
+  align-items: center;
+}
+
+.addingCategoryButton{
+  margin-top: 20px;
+}
+
+.listTitle {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.addingSpendingTitle {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.addingSpendingNumbers {
+  width: 170px;
+}
+
+.addingSpendingButtons {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+}
+
+.addingSpendingClean {
+  margin: 20px
+}
+
+.addingCategoryButtons {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.addingCategoryIcons {
+  width: 20px;
+  height: 20px;
+}
+
+.addingCategorySelectIcon {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.listBlock {
+  display: flex;
+  align-items: center;
+}
+
+.listBlockText {
+  margin-left: 20px;
+  font-size: 25px;
+}

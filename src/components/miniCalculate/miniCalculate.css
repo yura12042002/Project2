@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "roboto";
+  font-size: 20px;
+}
+
+button {
+  height: 35px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 20px;
+  cursor: pointer;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 500px;
+}
+
+.inputInvest {
+  height: 20px;
+  width: 300px;
+  outline: 0;
+}
+
+.chooseTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+}
+
+.chooseCurrency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+}
+
+.activeButton {
+  background-color: blue;
+  color: white;
+  border: 0;
+}

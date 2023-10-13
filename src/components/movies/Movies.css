@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgb(235, 235, 235);
+    margin: 15px;
+    width: 1000px;
+}
+
+.description {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.itemBackgroundPhoto {
+    width: 200px;
+    height: 300px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.rating {
+    font-size: 30px;
+    color: red
+}
+
+.descriptionTheMovie {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.torrent {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "roboto";
+}
+
+button {
+  border-radius: 20px;
+  border: 0;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background: #dc6919;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background-color: #bf7715;
+}
+
+.headText {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dc6919;
+  height: 10vh;
+}
+
+.inputsAmount {
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+}
+
+.inputsAmount::-webkit-inner-spin-button,
+.inputsAmount::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputsThing {
+  margin-right: 5px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+}
+
+.inputsAdd {
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  border: 0;
+  background-color: aqua;
+}
+
+.things {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  background-color: #4a3323;
+  
+}
+
+.thingsShow {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  overflow: auto; 
+}
+
+.thingShow {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  margin: 10px;
+}
+
+.thingsButtons {
+  height: 10vh;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #67c2a1;
+  height: 10vh;
+}
+
+.cleanThing {
+  background: 0;
+  cursor: pointer;
+}
+
+.thingShowAmount {
+    margin: 5px;
+}
+
+.activeButton {
+  background-color: blue;
+}

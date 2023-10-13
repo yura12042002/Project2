@@ -1,0 +1,137 @@
+body {
+    background-color: #dbdcb4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+}
+
+.mainBlockName {
+    font-size: 40px;
+    font-family: 'roboto';
+    margin-right: 70px;
+}
+
+.mainBlockContent {
+    width: 800px;
+    height: 120px;
+}
+
+.mainBlockContentInputFirst {
+    border: 0;
+    border-radius: 2px;
+    width: 340px;
+    height: 25px;
+    box-shadow:  -1px -1px 2px black;
+    outline: 0;
+    margin-right: 20px;
+}
+
+.mainBlockContentInputSecond {
+    border: 0;
+    border-radius: 2px;
+    width: 340px;
+    height: 25px;
+    box-shadow:  -1px -1px 2px black;
+    outline: 0;
+    margin-bottom: 20px;
+}
+.mainBlockContentButtonAdd {
+    background-color: white;
+    width: 160px;
+    border: 0;
+    box-shadow:  1.5px 1.5px 2px black;
+    border-radius: 2px;
+    color: red;
+    height: 25px;
+    font-weight: 600;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.mainBlockContentButtonSubtract {
+    background-color: white;
+    width: 160px;
+    border: 0;
+    box-shadow:  1.5px 1.5px 2px black;
+    border-radius: 2px;
+    color: red;
+    height: 25px;
+    font-weight: 600;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.mainBlockContentButtonMultiply {
+    background-color: white;
+    width: 160px;
+    border: 0;
+    box-shadow:  1.5px 1.5px 2px black;
+    border-radius: 2px;
+    color: red;
+    height: 25px;
+    font-weight: 600;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.mainBlockContentButtonDivide {
+    background-color: white;
+    width: 160px;
+    border: 0;
+    box-shadow:  1.5px 1.5px 2px black;
+    border-radius: 2px;
+    color: red;
+    height: 25px;
+    font-weight: 600;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.mainBlockContentLast {
+    margin-top: 10px;
+}
+
+.mainBlockContentButtonClear {
+    background-color: red;
+    width: 160px;
+    border: 0;
+    box-shadow:  1.5px 1.5px 2px black;
+    border-radius: 2px;
+    color: white;
+    height: 25px;
+    font-weight: 600;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.mainBlockContentLastInput {
+    border: 0;
+    border-radius: 2px;
+    width: 520px;
+    height: 25px;
+    box-shadow:  -1px -1px 2px black;
+    outline: 0;
+    margin-right: 22px;
+}
+
+.active {
+    background-color:#576f57;
+    width: 160px;
+    border: 0;
+    box-shadow:  1.5px 1.5px 2px black;
+    border-radius: 2px;
+    color: white;
+    height: 25px;
+    font-weight: 600;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.mainBlockContentLastInput::placeholder{color: black;}
